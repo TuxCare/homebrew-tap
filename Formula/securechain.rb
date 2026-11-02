@@ -4,29 +4,29 @@
 class Securechain < Formula
   desc "Supply-chain gate for your dependencies, as a single static binary"
   homepage "https://tuxcare.com/securechain"
-  version "0.1.60"
+  version "0.1.61"
   # The TuxCare License Agreement has no SPDX identifier; brew's symbol for that.
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://securechain.tuxcare.com/get/v0.1.60/securechain-darwin-arm64"
-      sha256 "fb254a1c35c84844ac56c5c9c35e4509d6a114bde944cca5a4eded4a683d7a40"
+      url "https://securechain.tuxcare.com/get/v0.1.61/securechain-darwin-arm64"
+      sha256 "d62af6a3af7c5dad74315ede6d25dae646b2d88a8027b77c0938d646a610f099"
     end
     on_intel do
-      url "https://securechain.tuxcare.com/get/v0.1.60/securechain-darwin-amd64"
-      sha256 "34ca9fac62b61c58114ed9022a3efb85f2712ac58d6dcf2fd138b0475f0aacac"
+      url "https://securechain.tuxcare.com/get/v0.1.61/securechain-darwin-amd64"
+      sha256 "112fa51cde23a9442d9032ba818bfe8385bec1bc523b452817e18b3e933d6ae1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://securechain.tuxcare.com/get/v0.1.60/securechain-linux-arm64"
-      sha256 "b31ad2ad5b18ad7fecabe0936f89b308fd74086154d13626de4244fdcbe1cfbd"
+      url "https://securechain.tuxcare.com/get/v0.1.61/securechain-linux-arm64"
+      sha256 "c6d05f4bd6d90f1248b78dc7eec382f0996b505a67f784c4cd019fb70761460b"
     end
     on_intel do
-      url "https://securechain.tuxcare.com/get/v0.1.60/securechain-linux-amd64"
-      sha256 "85133a78e528e8c003ca8791c465ea6bfb579d46ae7a85917b36d112fcf0e324"
+      url "https://securechain.tuxcare.com/get/v0.1.61/securechain-linux-amd64"
+      sha256 "9d94fc1492fa66c562afa895a695d87e6f8b6e92f1cda555d9c81a38ce80c817"
     end
   end
 
