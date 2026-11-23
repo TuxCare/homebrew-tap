@@ -6,29 +6,29 @@
 class Tuxcarectl < Formula
   desc "Supply-chain gate for your dependencies, as a single static binary"
   homepage "https://pulse.tuxcare.cloud"
-  version "0.1.94"
+  version "0.1.95"
   # The TuxCare License Agreement has no SPDX identifier; brew's symbol for that.
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://securechain.tuxcare.com/get/v0.1.94/tuxcarectl-darwin-arm64"
-      sha256 "271a6c76af122835b443320176fbabb55a106e31b1fcb97ac9cacfd929ac6730"
+      url "https://securechain.tuxcare.com/get/v0.1.95/tuxcarectl-darwin-arm64"
+      sha256 "a045e18a30a1a111e1d5a587a2a72b62ea0c98a52e6c206223d801dbe91f566b"
     end
     on_intel do
-      url "https://securechain.tuxcare.com/get/v0.1.94/tuxcarectl-darwin-amd64"
-      sha256 "c9a74e0e935b7b913aa14e291bc00df7c244e125f14b7ba4348c66f293449054"
+      url "https://securechain.tuxcare.com/get/v0.1.95/tuxcarectl-darwin-amd64"
+      sha256 "fec0f07cf835e682aab19661eb800b0384b288282a2dd88b9425c10b954c757e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://securechain.tuxcare.com/get/v0.1.94/tuxcarectl-linux-arm64"
-      sha256 "3c1fc5612dd089d1274920eeee5c7a71ededf7cf21ce45e8e98af1ff6bdc3aa6"
+      url "https://securechain.tuxcare.com/get/v0.1.95/tuxcarectl-linux-arm64"
+      sha256 "01220e1baf1c787e3a60838a486dd7230865345208c94b2b60c4a650159715bf"
     end
     on_intel do
-      url "https://securechain.tuxcare.com/get/v0.1.94/tuxcarectl-linux-amd64"
-      sha256 "560f4a36629c0e719ea5ef1cff3f45391e3d574dc97d456b02e1a77da0ee1a08"
+      url "https://securechain.tuxcare.com/get/v0.1.95/tuxcarectl-linux-amd64"
+      sha256 "748b07901c11568bed8ec5080b4c948b12e913eabc3a6780925240265e6f785d"
     end
   end
 
